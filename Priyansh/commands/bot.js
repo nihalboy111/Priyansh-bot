@@ -24,7 +24,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️miss u more🥰", threadID, messageID);
    };
   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner kon ha")) {
-     return api.sendMessage("️ 🥀💋RASHID XD💋🥀", threadID, messageID);
+     return api.sendMessage("️ 🥀💋NIHAL TRICKER💋🥀", threadID, messageID);
    };
 
   if ((event.body.toLowerCase() == "bat suno") || (event.body.toLowerCase() == "bat suno ji")) {
@@ -487,7 +487,7 @@ if ((event.body.toLowerCase() == "sim miss you yr") || (event.body.toLowerCase()
 
   if (event.body.indexOf("bot") == 0 || (event.body.indexOf("Bot") == 0)) {
     var msg = {
-      body: `╔═════▓࿇࿇▓═════╗\n        ${name}\n╚═════▓࿇࿇▓═════╝\n\n●▬ൠൠ▬𝙊𝙬𝙣𝙚𝙧▬ൠൠ▬●\n\n◈━━━━━RASHID━━━━━◈\n${rand}\n◈━━━━━RASHID━━━━━◈`
+      body: `╔═════▓࿇࿇▓═════╗\n        ${name}\n╚═════▓࿇࿇▓═════╝\n\n●▬ൠൠ▬𝙊𝙬𝙣𝙚𝙧▬ൠൠ▬●\n\n◈━━━━━NIHAL TRICKER━━━━━◈\n${rand}\n◈━━━━━NIHAL TRICKER━━━━━◈`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
